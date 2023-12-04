@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <button class="login-button" onclilck="openloginpopup()">Login</button>
+    <script>
+        function openloginpopup(){
+            alert('Login popup will be displayed.');
+        }
+    </script>
+
+<div class="signup-container">
+    <form action="intro.html" method="get" name="registerationForm">
+    <form action="#" method="post">
+        <h2>Login Page</h2>
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+
+</div>
+
+
+</body>
+</html>
